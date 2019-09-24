@@ -1,6 +1,11 @@
 # the_world_clock
 Basic info: test_Homework1
 
+#### *Tools&Version*
+ 1. IDEA 2019.2
+ 2. JDK 11.01
+ 3. lombok 1.18.10
+ 
 #### 功能的完善(暂无截图...)
 + ~~炫酷的~~阶梯状选项
 
