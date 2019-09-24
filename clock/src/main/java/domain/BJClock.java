@@ -1,6 +1,5 @@
-package Domain;
+package domain;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 public class BJClock extends Clock {
@@ -10,7 +9,7 @@ public class BJClock extends Clock {
     }
 
     @Override
-    void setTime(LocalDateTime date) {
+    public void setTime(LocalDateTime date) {
         // date 是北京时间
         this.date = date;
     }
