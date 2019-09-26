@@ -24,7 +24,7 @@ public class ClockService {
         phone.print();
     }
 
-    private void setTimeByPhone(Phone phone, ArrayList<Clock> clocks){
+    public void setTimeByPhone(Phone phone, ArrayList<Clock> clocks){
         LocalDateTime dateTime = phone.getDate();
         for (Clock clock : clocks){
             clock.setTime(dateTime);

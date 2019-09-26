@@ -12,7 +12,7 @@ public class MSKClock extends Clock {
     public void setTime(LocalDateTime date) {
         // date 是北京时间
         // 莫斯科比UTC时间早4小时
-        this.date = date.minusHours(4);
+        this.date = date.minusHours(5);
     }
 //    @Override
 //    public void print(){

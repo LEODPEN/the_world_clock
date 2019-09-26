@@ -12,7 +12,7 @@ public class LDClock extends Clock {
     public void setTime(LocalDateTime date) {
         // date 是北京时间
         // 伦敦与UTC时间一致，北京比UTC时间早8小时
-        this.date = date.minusHours(8);
+        this.date = date.minusHours(7);
     }
 
 }
