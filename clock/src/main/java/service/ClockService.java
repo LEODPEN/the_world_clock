@@ -16,7 +16,7 @@ public class ClockService {
         setTimeByPhone(phone,clocks);
     }
 
-    public void displayPhoneTime(Phone phone){
+    public void displayPhoneTime(Phone phone) {
         // 如果phone未初始化时间
         if (phone.getDate()==null){
             throw new HotelException(ExceptionEnums.PHONE_TIME_NEEDED);

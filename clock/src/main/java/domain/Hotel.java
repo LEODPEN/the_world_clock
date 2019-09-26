@@ -26,5 +26,4 @@ public class Hotel {
         clocks.add(new XNClock());
         // 未要求展示时间时，不展示时间，因此不采取时间的初始化
     }
-
 }
